@@ -32,10 +32,10 @@ npm i
 Setup the `.env` file:
 
 ```env
-DATABASE_URL="./dev.db"
+DATABASE_URL="file:./dev.db"
 ```
 
-If you ar running the project on [WSL](https://learn.microsoft.com/windows/wsl/install), the you will need to install the Google Chrome to generate the Entity Relationship Diagram (ERD) with [Mermaid](https://mermaid-js.github.io/).:
+If you ar running the project on [WSL](https://learn.microsoft.com/windows/wsl/install), the you will need to install the Google Chrome to generate the Entity Relationship Diagram (ERD) with [Mermaid](https://mermaid-js.github.io/):
 
 ```shell
 sudo apt update && sudo apt -y upgrade && sudo apt -y autoremove
